@@ -19,7 +19,7 @@ After Knowing the Columns present in the data
 ' UNION SELECT database(),user()#
 ```
 You will get the screen below:
-![final1](https://github.com/rahulrbk/Docs/blob/master/pic1.png)
+![final1](https://github.com/rahulrbk/Docs/blob/master/pic.png)
 After Knowing the database name and the user name we will find 'TABLE' inside the database.
 with the following query:
 ```sh
